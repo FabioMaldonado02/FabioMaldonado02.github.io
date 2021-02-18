@@ -1,0 +1,171 @@
+body{
+    background-color: lightcyan;
+    font-family:  'Noto Sans JP', 'Times New Roman', Times, serif;
+    
+}
+nav :hover{
+    cursor: pointer;
+    font-family:"Oswald";
+}
+#jumbotron {
+    
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+ button{
+    width: 200px;
+    height: 150px;
+}
+button:hover{
+    background-color: black;
+    border-style: solid;
+     
+}
+ 
+
+ .carousel-text{
+    color: black;
+    font-size: 28px;
+}
+.carousel-text:hover{
+    text-shadow: 5px 0px 5px black;
+}
+.pic{
+    background-image: url("../img/taco-shoppic2.jpg");
+
+}
+.pic2{
+    background-image: url("../img/BladeRunner_opening_website.jpg");
+}
+
+.pic .pic2{
+    width: 200px;
+    height: 150px;
+}
+ .car-photo{
+     width:100px;
+     height:150px;
+ }
+  
+.container-inner{
+    border-style: solid;
+    padding:10px;
+    margin-top: 20px;
+    border-radius:10px;
+    border-color: black;
+    
+}
+
+.con-inner :hover{
+     
+    border-style: dashed;
+    font-family: "Oswald";
+}
+
+.jumbotron{
+    background-image: url("../img/BladeRunner_two.jpeg");
+}
+
+.project1{
+    background-color: lightgray;
+    margin-top: 20px;
+    height: 150px;
+}
+
+.project-link{
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+     
+   
+}
+ 
+
+.project-link:hover{
+     border-color: black;
+     font-family:"Oswald";
+     color: black;
+}
+
+.con-text{
+        color: lightcyan;
+}
+
+.con-text:hover{
+   text-decoration: underline;
+   cursor: pointer;
+   font-family:"Oswald";
+}
+
+.contact-title{
+     margin-top: 10px;
+}
+
+#body-form{
+    width: 400px;
+  padding:30px;
+  margin:auto;
+  border-radius:10px;
+  text-align:left;
+  background-color:rgba(0,0,0,0.6);
+  font-size:20px;
+  color:white;
+}
+
+#name{
+    width:300px;
+    padding:5px;
+    border-radius:10px;
+  }
+  #email{
+    width:300px;
+    padding:5px;
+    border-radius:10px;
+  }
+  #number{
+    width:300px;
+   padding:5px;
+   border-radius:10px;
+ }
+ #comment{
+    width:300px;
+   padding:5px;
+   border-radius:10px;
+   border:none;
+   margin-top: 10px;
+   
+ } 
+  #submit{
+    width:300px;
+   padding:5px;
+   border-radius:10px;
+   font-size:10px;
+   border:none;
+   margin-top:3%;
+   color:white;
+   background-color:#66CCFF;
+ }
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+             p{
+                  font-size: small;
+             }
+             p:hover{
+                 font-family: "Oswald";
+             }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+          
+
+
+
+} 
